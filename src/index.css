@@ -1,22 +1,37 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+body{
+  background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTja_xlOD6v26wpr2XBtMJmfbfcpQEY3euvp9IUj6sDFiMv5dknuUdoEKFTOwX1I95hWnU&usqp=CAU");
+  background-size: cover;
+}
 
 .header{
   display: flex;
+  margin-left: 250px;
+  width: 900px;
+  height: 60px;
+  background-color: black;
+  color: white;
+  align-items: center;
   justify-content: center;
+  text-align: center;
+  margin-top: 20px;
+  border-radius: 20px;
+  filter:blur(0px) brightness(.7);
+  
   
 }
 .section1{
   display: flex;
   align-items: center;
   list-style-type: none;
-  margin: 10px 20px;
+  margin: 20px 30px;
  
   
 }
 .section1 li{
-  margin-right: 20px;
+  margin-right: 50px;
   
 }
 .section2{
@@ -25,15 +40,29 @@
   margin: 0 10px;
 
 }
+li:hover{
+  background-color: white;
+  color: darkgray;
+  border-radius: 2px;
+
+}
+.logo{
+  width: 50px;
+  
+}
+img{
+  margin-left: -80px;
+}
 .home-section{
   display: flex;
   list-style-type: none;
   text-align: center;
+  margin-left: 30px;
   
 }
 @media (max-width:650px){
   .header{
-    align-items: center;
+    justify-content: center;
   }
 }
 
