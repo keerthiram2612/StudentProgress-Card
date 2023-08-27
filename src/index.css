@@ -1,10 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-body{
-  background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTja_xlOD6v26wpr2XBtMJmfbfcpQEY3euvp9IUj6sDFiMv5dknuUdoEKFTOwX1I95hWnU&usqp=CAU");
-  background-size: cover;
-}
+
 
 .header{
   display: flex;
@@ -18,10 +15,24 @@ body{
   text-align: center;
   margin-top: 20px;
   border-radius: 20px;
-  filter:blur(0px) brightness(.7);
+  filter:blur(0.4px) brightness(.7);
   
   
 }
+.background-image {
+  top: 0;
+  left: 0;
+  width: 300%;
+  margin-top: 10px;
+  height: 500px;
+  margin-left: 60px;
+  background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTja_xlOD6v26wpr2XBtMJmfbfcpQEY3euvp9IUj6sDFiMv5dknuUdoEKFTOwX1I95hWnU&usqp=CAU');
+  background-size: cover;
+  background-position: center;
+  filter: brightness(0.7); /* Optional: Add a slight dark overlay to improve text visibility */
+}
+
+
 .section1{
   display: flex;
   align-items: center;
