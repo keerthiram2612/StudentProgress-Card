@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.header{
+  display: flex;
+  justify-content: center;
+  
+}
+.section1{
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+  margin: 10px 20px;
+ 
+  
+}
+.section1 li{
+  margin-right: 20px;
+  
+}
+.section2{
+  display: flex;
+  list-style-type: none;
+  margin: 0 10px;
+
+}
+.home-section{
+  display: flex;
+  list-style-type: none;
+  text-align: center;
+  
+}
+@media (max-width:650px){
+  .header{
+    align-items: center;
+  }
+}
+
