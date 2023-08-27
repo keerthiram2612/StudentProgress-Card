@@ -1,11 +1,16 @@
 import React from 'react'
-import Header from '../components/Header'
+
 
 function Home() {
   return (
     <div className='home-section'>
-        <div className="background-image"></div>
-        <h1>WELCOME TO JAYA ENGINEERING COLLEGE</h1>
+        <div className='background-image'></div>
+        <h1 className='home-image'>WELCOME TO JAYA ENGINEERING COLLEGE</h1>
+        <div className="home-content">
+            <h2 className='content'></h2>
+            <p></p>
+        
+        </div>
     </div>
   )
 }

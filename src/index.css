@@ -2,7 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
-
+body{
+  
+}
 .header{
   display: flex;
   margin-left: 250px;
@@ -19,17 +21,35 @@
   
   
 }
+.home-image{
+
+}
 .background-image {
   top: 0;
   left: 0;
-  width: 300%;
+  width: 400%;
   margin-top: 10px;
   height: 500px;
+  margin-right: -490px;
   margin-left: 60px;
   background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTja_xlOD6v26wpr2XBtMJmfbfcpQEY3euvp9IUj6sDFiMv5dknuUdoEKFTOwX1I95hWnU&usqp=CAU');
   background-size: cover;
   background-position: center;
-  filter: brightness(0.7); /* Optional: Add a slight dark overlay to improve text visibility */
+   /* Optional: Add a slight dark overlay to improve text visibility */
+}
+.footer{
+   background-color: black;
+   height: 200px;
+   margin-top: 10px;
+   color: white;
+}
+.footer p {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+}
+.footer p{
+  justify-content: center;
 }
 
 
@@ -69,8 +89,27 @@ img{
   list-style-type: none;
   text-align: center;
   margin-left: 30px;
+
   
 }
+.home-image{
+  width: 300px;
+  margin-top: 20px;
+  transform: translateX(-150%);
+  font-size: 40px;
+  white-space: nowrap;
+}
+.content{
+  width: 300px;
+  height: 200px;
+  transform: translateX(-230%);
+  margin-top: 170px;
+  background-color: black rgba(0,0,0.3);
+  filter: blur(0.5px) brightness(.7) ;
+  color: black;
+  font-size: 40px;
+}
+
 @media (max-width:650px){
   .header{
     justify-content: center;
