@@ -18,6 +18,7 @@ body{
   margin-top: 20px;
   border-radius: 20px;
   filter:blur(0.4px) brightness(.7);
+  cursor: pointer;
   
   
 }
@@ -28,9 +29,7 @@ body{
   
   
 }
-.home-image{
 
-}
 .background-image {
   top: 0;
   left: 0;
@@ -48,6 +47,7 @@ body{
    height: 200px;
    margin-top: 10px;
    color: white;
+   cursor: pointer;
 }
 .footer p {
   display: flex;
@@ -64,11 +64,13 @@ body{
   align-items: center;
   list-style-type: none;
   margin: 20px 30px;
+  
  
   
 }
 .section1 li{
   margin-right: 50px;
+  cursor: pointer;
   
 }
 .section2{
@@ -81,7 +83,7 @@ li:hover{
   background-color: white;
   color: darkgray;
   border-radius: 2px;
-
+  
 }
 .logo{
   width: 50px;
@@ -95,6 +97,7 @@ img{
   list-style-type: none;
   text-align: center;
   margin-left: 30px;
+  cursor: pointer;
 
   
 }
@@ -140,12 +143,26 @@ h1{
 .content{
   width: 300px;
   height: 200px;
-  transform: translateX(-230%);
+  transform: translateX(-240%);
   margin-top: 170px;
-  background-color: black rgba(0,0,0.3);
+  background-color: blue rgba(0,0,0.3);
   filter: blur(0.5px) brightness(.7) ;
-  color: black;
-  font-size: 40px;
+  color: blue;
+  font-size: 25px;
+  white-space: nowrap;
+  text-decoration: dashed;
+}
+.content-img{
+  margin-top: -130px;
+  margin-left: -750px;
+  border: 3px solid gray;
+}
+.content-home{
+  width: 400px;
+  height: 200px;
+  margin-top: -150px;
+  white-space: nowrap;
+  margin-left: -390px;
 }
 @media (max-width: 768px) {
   .header {
@@ -153,6 +170,7 @@ h1{
     margin-right: 10px;
     width: auto;
     border-radius: 0;
+   
   }
   
   .home-para {

@@ -16,8 +16,11 @@ function Home() {
         <img  className = "logo-home2"src="https://jec.ac.in/wp-content/uploads/2022/11/IIC-logo.png" alt="" />
         <img  className="logo-home3"src="https://jec.ac.in/wp-content/uploads/2022/11/Layer-2-3.gif" alt="" />
         <div className="home-content">
-            <h2 className='content'></h2>
-            <p></p>
+            <h2 className='content'>Welcome to Jaya College of Engineering & Technology</h2>
+            <img className='content-img' src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSfgHPpa4zXnNI6yPaahtfP7DopSq170_JXdS9jVRb9L-dSdUElphZREjV3J0tTnD2SIVM&usqp=CAU" alt="" />
+            <p className='content-home'>Established during the academic year 2000-'01 for systematic transformation of <br/>the students into highly motivated graduates with professional competence.<br/>
+             The college is working with professional competence under the aegis<br/> 
+              of Jaya Educational Trust, Thiruninravur, Chennai which was found by Prof.A.Kanagaraj.<br/></p>
         
         </div>
     </div>
