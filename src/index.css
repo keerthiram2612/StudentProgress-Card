@@ -108,7 +108,27 @@ img{
   height: 150px;
   align-items: center;
   justify-content: center;
+  border-bottom: 2px solid;
   
+}
+.logo-home1{
+  width: 250px;
+  height: 100px;
+  margin-top: 180px;
+  transform: translateX(-450%);
+}
+.logo-home3{
+  width: 250px;
+  height: 100px;
+  margin-top: 180px;
+  transform: translateX(-150%);
+
+}
+.logo-home2{
+  width: 250px;
+  height: 100px;
+  margin-top: 180px;
+  transform: translateX(-300%);
 }
 .logo-home{
   width: 120px;
