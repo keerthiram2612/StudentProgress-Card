@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 body{
-  
+
 }
 .header{
   display: flex;
@@ -19,14 +19,13 @@ body{
   border-radius: 20px;
   filter:blur(0.4px) brightness(.7);
   cursor: pointer;
-  
+
   
 }
 .home-para{
   margin-top: 100px;
   transform: translateX(-20%);
   white-space: nowrap;
-  
   
 }
 
@@ -54,10 +53,6 @@ body{
   justify-content: center;
   list-style-type: none;
 }
-.footer p{
-  justify-content: center;
-}
-
 
 .section1{
   display: flex;
@@ -65,9 +60,8 @@ body{
   list-style-type: none;
   margin: 20px 30px;
   
- 
-  
 }
+
 .section1 li{
   margin-right: 50px;
   cursor: pointer;
@@ -92,6 +86,7 @@ li:hover{
 img{
   margin-left: -80px;
 }
+
 .home-section{
   display: flex;
   list-style-type: none;
@@ -99,23 +94,23 @@ img{
   margin-left: 30px;
   cursor: pointer;
 
-  
 }
+
 .home-image{
   margin-top: 20px;
-  transform: translateX(80%);
-  font-size: 40px;
+  transform: translateX(-80%);
+  font-size: 50px;
   white-space: nowrap;
-  align-items: center;
-  justify-content: center;
-  
+ 
 }
+
 .logo-home1{
   width: 250px;
   height: 100px;
   margin-top: 50px;
   transform: translateX(90%);
 }
+
 .logo-home3{
   width: 250px;
   height: 100px;
@@ -123,15 +118,20 @@ img{
   transform: translateX(-50%);
 
 }
+
 .logo-home2{
+
   width: 250px;
   height: 100px;
   margin-top: 50px;
   transform: translateX(170%);
+
 }
+
 .logo-home{
-  width: 120px;
-  height: 100px;
+
+  width: 220px;
+  height: 130px;
   transform: translateX(-140%);
   margin-top: 20px;
 
@@ -154,38 +154,37 @@ h1{
 }
 .content-img{
   margin-top: -130px;
-  margin-left: -750px;
+  margin-left: 750px;
   border: 3px solid gray;
 }
 .content-home{
+
   width: 400px;
   height: 200px;
   margin-top: -150px;
   white-space: nowrap;
   margin-left: -390px;
+
 }
-@media (max-width: 768px) {
+
+@media (min-width: 350px) {
   .header {
     margin-left: 10px;
     margin-right: 10px;
     width: auto;
     border-radius: 0;
-   
+  
   }
   
   .home-para {
     margin-top: 130px;
     white-space: nowrap;
-    transform: translateX(-35%);
+    transform: translateX(-80%);
     font-size: 12px;
-    
-  
    }
    
-  
   .home-image {
     margin-top: 20px;
-    transform: none;
     font-size: 28px;
     transform: translateX(15%);
   }
@@ -198,7 +197,6 @@ h1{
   
   .section1, .section2 {
     display: flex;
-    flex-direction: column;
     align-items: center;
     margin: 20px 0;
   }
@@ -213,7 +211,7 @@ h1{
     width: 150px;
     height: 50px;
     margin-top: 70px;
-    transform: translateX(-550%);
+    transform: translateX(-1000%);
     
     
   }
@@ -221,22 +219,23 @@ h1{
     width: 150px;
     height: 50px;
     margin-top: 70px;
-    transform: translateX(-650%);
+    transform: translateX(-1050%);
   }
-  .logo-home3{
-    width: 150px;
-    height: 50px;
-    margin-top: 70px;
-    transform: translateX(-250%);
-  }
-  
-  .logo-home {
-    width: 80px;
-    height: 70px;
-    margin-left: -280px;
-    
-    
-  }
+  .logo-home{
+
+  width: 120px;
+  height: 80px;
+  transform: translateX(-390%);
+  margin-top: 20px;
+
+}
+.logo-home3{
+  width: 120px;
+  height: 50px;
+  margin-top: 70px;
+  transform: translateX(-770%);
+
+}
   
   .content {
   width: 100%; /* Full width on small screens */
@@ -245,20 +244,22 @@ h1{
   font-size: 18px; /* Adjust font size for better readability */
   white-space: normal; /* Allow text to wrap */
   text-align: center; 
-  transform: translateX(-120%);/* Center align text */
+  transform: translateX(-160%);/* Center align text */
+  
 }
 
 .content-img {
   margin-top: 20px; /* Adjust margin as needed */
-  margin-left: -400px; /* Reset margin */
- 
+  margin-left: -590px; /* Reset margin */
+  align-items: center;
 }
 
 .content-home {
   margin-top: 20px; /* Adjust margin as needed */
-  margin-left: -120%; /* Reset margin */
+  margin-left: -170%; /* Reset margin */
   font-size: 12px;
   justify-content: center;
+  align-items: center;
   
 }
   
