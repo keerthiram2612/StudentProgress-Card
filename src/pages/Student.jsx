@@ -16,6 +16,7 @@ export default function Student() {
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
        <div className='history'>
         <h1 className='header-student'>STUDENT HISTORY SHEET</h1>
+        <img className="image-lg"src="https://1.bp.blogspot.com/-X4As0ar0xSI/XtUFJHddU1I/AAAAAAAAERU/KxXsvd2DyPkVGNkUsivS3ylsnh1nYWvNgCLcBGAsYHQ/s1600/s-40-485x340.jpg" alt="" />
         <div className='photo'></div>
         <input  className="photo-update"
         type="file"
