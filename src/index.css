@@ -3,7 +3,10 @@
 @tailwind utilities;
 
 body{
-
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+   
 }
 .header{
   display: flex;
@@ -19,19 +22,21 @@ body{
   border-radius: 20px;
   filter:blur(0.4px) brightness(.7);
   cursor: pointer;
-
+  
   
 }
 .home-para{
-  margin-top: 100px;
-  transform: translateX(-20%);
-  white-space: nowrap;
+ 
+    margin-top: 130px;
+    white-space: nowrap;
+    transform: translateX(-40%);
+    font-size: 15px;
+   
   
 }
 
 .background-image {
-  top: 0;
-  left: 0;
+  
   width: 400%;
   margin-top: 10px;
   height: 500px;
@@ -98,8 +103,8 @@ img{
 
 .home-image{
   margin-top: 20px;
-  transform: translateX(-80%);
-  font-size: 50px;
+  transform: translateX(70%);
+  font-size: 45px;
   white-space: nowrap;
  
 }
@@ -107,15 +112,15 @@ img{
 .logo-home1{
   width: 250px;
   height: 100px;
-  margin-top: 50px;
-  transform: translateX(90%);
+  margin-top: 20px;
+  transform: translateX(230%);
 }
 
 .logo-home3{
   width: 250px;
   height: 100px;
-  margin-top: 50px;
-  transform: translateX(-50%);
+  margin-top: 20px;
+  transform: translateX(60%);
 
 }
 
@@ -123,8 +128,8 @@ img{
 
   width: 250px;
   height: 100px;
-  margin-top: 50px;
-  transform: translateX(170%);
+  margin-top: 20px;
+  transform: translateX(-60%);
 
 }
 
@@ -132,8 +137,8 @@ img{
 
   width: 220px;
   height: 130px;
-  transform: translateX(-140%);
-  margin-top: 20px;
+  transform: translateX(-200%);
+  margin-top: px;
 
 }
 h1{
@@ -143,8 +148,8 @@ h1{
 .content{
   width: 300px;
   height: 200px;
-  transform: translateX(-240%);
-  margin-top: 170px;
+  transform: translateX(-230%);
+  margin-top: 220px;
   background-color: blue rgba(0,0,0.3);
   filter: blur(0.5px) brightness(.7) ;
   color: blue;
@@ -153,9 +158,68 @@ h1{
   text-decoration: dashed;
 }
 .content-img{
-  margin-top: -130px;
-  margin-left: 750px;
-  border: 3px solid gray;
+  margin-top: -60px; /* Adjust margin as needed */
+  margin-left: -850px; /* Reset margin */
+  align-items: center;
+  border: 3px solid;
+}
+.header-student{
+  justify-content: center;
+  text-align: center;
+  font-size: 25px;
+  margin-top: 30px;
+  font-family: bold;
+}
+.hist-stud{
+justify-content: center;
+ text-align: center;
+ margin-left: -390px;
+ margin-top: 40px;
+}
+
+.student-history{
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-top: -150px;
+}
+input{
+  margin-top: -20px;
+  width: 190px;
+  height: 30px;
+  border: 2px solid;
+  border-radius: 3px;
+  margin-left: 30px;
+}
+textarea{
+  border: 2px solid;
+  margin-top: -15px;
+  width: 350px;
+  height: 100px;
+}
+.hist-stud1{
+  justify-content: center;
+ text-align: center;
+ margin-left: -600px;
+ margin-top: 30px;
+
+}
+table{
+  margin-left: 290px;
+  margin-top: 30px;
+}
+.stud-hist{
+  margin-left: -460px;
+  margin-top: 30px;
+}
+select{
+  width:130px;
+  height: 40px;
+  border: 2px solid;
+  margin-left: 50px;
+}
+.upload{
+  margin-left: 400px;
 }
 .content-home{
 
@@ -163,11 +227,23 @@ h1{
   height: 200px;
   margin-top: -150px;
   white-space: nowrap;
-  margin-left: -390px;
+  margin-left: -550px;
 
 }
+.photo{
+  width: 150px;
+  height: 140px;
+  border: 2px solid;
+  margin-left: 840px;
+  margin-top: 30px;
+}
+.photo-update{
+  margin-left: 470px;
+  margin-top: 10px;
+}
+/*Home page*/
 
-@media (min-width: 350px) {
+@media (max-width: 650px) {
   .header {
     margin-left: 10px;
     margin-right: 10px;
@@ -177,16 +253,15 @@ h1{
   }
   
   .home-para {
-    margin-top: 130px;
-    white-space: nowrap;
-    transform: translateX(-80%);
+  
     font-size: 12px;
-   }
+    margin-left: -50px;
+  }
    
   .home-image {
-    margin-top: 20px;
-    font-size: 28px;
-    transform: translateX(15%);
+    font-size: 20px;
+    margin-top: 30px;
+    margin-left: -45px;
   }
   
   .background-image {
@@ -208,59 +283,65 @@ h1{
   }
   
   .logo-home1{
-    width: 150px;
+    
+    width: 70px;
     height: 50px;
     margin-top: 70px;
-    transform: translateX(-1000%);
-    
+    transform: translateX(-600%);
     
   }
   .logo-home2{
-    width: 150px;
-    height: 50px;
-    margin-top: 70px;
-    transform: translateX(-1050%);
+    width: 70px;
+   height: 50px;
+   margin-top: 70px;
+   transform: translateX(-700%);
+  
   }
   .logo-home{
-
-  width: 120px;
-  height: 80px;
-  transform: translateX(-390%);
-  margin-top: 20px;
+   width: 100px;
+   height: 70px;
+   margin-top: 20px;
+   margin-left: -40px;
+ 
 
 }
 .logo-home3{
-  width: 120px;
-  height: 50px;
-  margin-top: 70px;
-  transform: translateX(-770%);
+   width: 70px;
+   height: 50px;
+   margin-top: 70px;
+   transform: translateX(-300%);
 
 }
   
   .content {
-  width: 100%; /* Full width on small screens */
-  height: auto; /* Adjust height as needed */ /* Reset the translation */
-  margin-top:190px; /* Adjust margin as needed */
-  font-size: 18px; /* Adjust font size for better readability */
-  white-space: normal; /* Allow text to wrap */
-  text-align: center; 
-  transform: translateX(-160%);/* Center align text */
+   font-size: 18px;
+   margin-left: 250px;
+   white-space: normal;
+   text-align: center;
+   justify-content: center;/* Center align text */
   
 }
+.content-img{
+  transform: translateX(150%);
+}
+.content-home {
+  font-size: 12px;
+   transform: translateX(10%);
+   margin-top: 40px;
 
-.content-img {
-  margin-top: 20px; /* Adjust margin as needed */
-  margin-left: -590px; /* Reset margin */
-  align-items: center;
 }
 
 .content-home {
-  margin-top: 20px; /* Adjust margin as needed */
-  margin-left: -170%; /* Reset margin */
-  font-size: 12px;
-  justify-content: center;
-  align-items: center;
+ 
   
 }
-  
+.stud-hist{
+  margin-left: -70px;
+}
+.hist-stud{
+  margin-left: -40px;
+}
+.student-history{
+
+}
 }

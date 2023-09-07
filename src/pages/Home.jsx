@@ -22,7 +22,7 @@ function Home() {
             <p className='content-home'>Established during the academic year 2000-'01 for systematic transformation of <br/>the students into highly motivated graduates with professional competence.<br/>
              The college is working with professional competence under the aegis<br/> 
               of Jaya Educational Trust, Thiruninravur, Chennai which was found by Prof.A.Kanagaraj.<br/></p>
-        
+            
         </div>
     </div>
   )
