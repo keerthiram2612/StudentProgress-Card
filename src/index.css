@@ -261,6 +261,15 @@ i{
 /*Home page*/
 
 @media (max-width: 650px) {
+  .photo{
+    margin-left: 170px;
+    margin-bottom: 100px;
+  }
+  .photo-update{
+    margin-left: 10px;
+    transform: translateY(-280%);
+    margin-bottom: 60px;
+  }
   .header {
     margin-left: 10px;
     margin-right: 10px;
