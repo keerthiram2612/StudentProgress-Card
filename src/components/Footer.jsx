@@ -3,6 +3,7 @@ import { useNavigate } from 'react-router'
 
 export default function Footer() {
   const navigate = useNavigate()
+  
   return (
     <div className='footer'>
       <p>@JAYA ENGINEERING COLLEGE</p>

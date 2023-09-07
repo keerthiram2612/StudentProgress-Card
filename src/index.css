@@ -241,6 +241,15 @@ select{
   margin-left: 470px;
   margin-top: 10px;
 }
+i{
+  margin-left: 600px;
+  width: 150px;
+  height: 40px;
+}
+
+
+
+
 /*Home page*/
 
 @media (max-width: 650px) {

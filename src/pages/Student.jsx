@@ -1,7 +1,9 @@
 import React from 'react'
 import { useState } from 'react';
+import { useNavigate } from 'react-router';
 
 export default function Student() {
+  const navigate = useNavigate();
   const [selectedFile, setSelectedFile] = useState(null);
 
   const handleFileChange = (e) => {
@@ -9,7 +11,9 @@ export default function Student() {
     setSelectedFile(file);
   };
   return (
+
     <div>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
        <div className='history'>
         <h1 className='header-student'>STUDENT HISTORY SHEET</h1>
         <div className='photo'></div>
@@ -59,20 +63,7 @@ export default function Student() {
         <option value="SC">SC</option>
         <option value="ST">ST</option>
         </select></h2>
-        <table>
-          <tr>
-            <th>Date of Change</th>
-            <th>Address & Telephone Number</th>
-          </tr>
-          <tr>
-    <td>1.</td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>2.</td>
-    <td></td>
-  </tr>
-        </table>
+        <i className="arrow"onClick={()=>navigate('/student1')} class="fa-solid fa-arrow-right fa-2xl"></i>
         </form>
        </div>
     </div>
