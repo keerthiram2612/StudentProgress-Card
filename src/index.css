@@ -245,8 +245,6 @@ select{
 }
 i{
   margin-left: 600px;
-  width: 150px;
-  height: 40px;
 }
 
 .medical-stud{
@@ -277,13 +275,27 @@ i{
     border-radius: 0;
   
   }
+  textarea{
+    border: 2px solid;
+    margin-top: -15px;
+    width: 250px;
+    height: 70px;
+    margin-left: 90px;
+  }
+  .hist-stud1{
+    transform: translateX(12%);
+  }
+  
+  i{
+    transform: translateX(-150%);
+  }
   
   .home-para {
   
     font-size: 12px;
     margin-left: -50px;
   }
-   
+  
   .home-image {
     font-size: 20px;
     margin-top: 30px;
