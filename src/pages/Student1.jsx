@@ -44,32 +44,12 @@ class Student1 extends Component {
 
     return (
       <div>
-        <h3>Dynamic Grade Table:</h3>
-        <table border="1" cellspacing="0">
-          <thead>
-            <tr>
-              <th>Sub Code</th>
-              <th>Subject</th>
-              <th>Grade</th>
-              <th>Pass/Fail</th>
-              <th>Year of Passing</th>
-            </tr>
-          </thead>
-          <tbody>
-            {grades.map((grade, index) => (
-              <tr key={index}>
-                <td>{grade.subCode}</td>
-                <td>{grade.subject}</td>
-                <td>{grade.grade}</td>
-                <td>{grade.passFail}</td>
-                <td>{grade.year}</td>
-              </tr>
-            ))}
-             
-          </tbody>
-        </table>
         <div>
-          <h4>Add New Row:</h4>
+            <h2 className='medical-stud'>Student Marksheet</h2>
+        </div>
+        <h3 className='sem-1'>Semester 1:</h3>
+        <div>
+          <h4>Day Scholar/Hosteller:</h4>
           <input
             type="text"
             id="subCode"
@@ -106,6 +86,29 @@ class Student1 extends Component {
             onChange={this.handleInputChange}
           />
           <button onClick={this.handleAddRow}>Add Row</button>
+          <table border="1" cellspacing="0">
+          <thead>
+            <tr>
+              <th>Sub Code</th>
+              <th>Subject</th>
+              <th>Grade</th>
+              <th>Pass/Fail</th>
+              <th>Year of Passing</th>
+            </tr>
+          </thead>
+          <tbody>
+            {grades.map((grade, index) => (
+              <tr key={index}>
+                <td>{grade.subCode}</td>
+                <td>{grade.subject}</td>
+                <td>{grade.grade}</td>
+                <td>{grade.passFail}</td>
+                <td>{grade.year}</td>
+              </tr>
+            ))}
+             
+          </tbody>
+        </table>
         </div>
       </div>
     );

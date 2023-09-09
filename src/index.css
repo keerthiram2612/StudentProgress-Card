@@ -6,7 +6,12 @@ body{
    justify-content: center;
    align-items: center;
    text-align: center;
-   
+   background: linear-gradient(
+    135deg,
+    purple 20%,
+    orange 80%
+);
+     
    
 }
 
@@ -259,12 +264,31 @@ i{
   width: 300px;
   height: 160px;
 }
-
 .image-lg{
   width: 200px;
   height: 150px;
   margin-left: 200px;
-  margin-top: -80px;
+  margin-top: -50px;
+}
+th{
+  padding: 0 20px;
+  margin-bottom: 40px;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  margin-left: 180px;
+}
+h4{
+  margin-top: 100px;
+  margin-bottom: 20px;
+}
+input{
+   margin-top: 10px;
+   margin-bottom: 30px;
+}
+.sem-1{
+  font-size: 20px;
+  text-decoration: underline;
 }
 /*Home page*/
 
@@ -284,6 +308,9 @@ i{
     width: auto;
     border-radius: 0;
   
+  }
+  .image-lg{
+   visibility: hidden;
   }
   textarea{
     border: 2px solid;
