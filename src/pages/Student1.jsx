@@ -119,7 +119,9 @@ class Student1 extends Component {
         <Student2/>
         <Student3/>
         <Student4/>
+        <button className='stud1'>Submit</button>
       </div>
+      
     );
   }
 }
