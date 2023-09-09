@@ -1,11 +1,7 @@
 import React, { Component } from 'react';
-import Student2 from './Student2'
-import Student3 from "./Student3"
-import Student4 from "./Student4"
+import Student from './Student';
 
 class Student1 extends Component {
-   
-
   constructor(props) {
     super(props);
     this.state = {
@@ -45,15 +41,10 @@ class Student1 extends Component {
 
   render() {
     const { grades, newGrade } = this.state;
-    
 
     return (
-       
       <div>
-        <div>
-            <h2 className='medical-stud'>Student Marksheet</h2>
-        </div>
-        <h3 className='sem-1'>Semester 1:</h3>
+        <h3 className='sem-2'>Semester 4:</h3>
         <div>
           <h4>Day Scholar/Hosteller:</h4>
           <input
@@ -116,9 +107,6 @@ class Student1 extends Component {
           </tbody>
         </table>
         </div>
-        <Student2/>
-        <Student3/>
-        <Student4/>
       </div>
     );
   }
