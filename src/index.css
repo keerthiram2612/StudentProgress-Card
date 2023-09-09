@@ -468,7 +468,23 @@ input{
 .hist-stud{
   margin-left: -40px;
 }
-.student-history{
+.logo-student1{
+   transform: translateX(170%);
+   width: 90px;
+   height: 80px;
+}
+.logo-student2{
+  transform: translateX(280%);
+  width: 90px;
+  height: 80px;
+  margin-top: -78px;
 
 }
+.logo-student3{
+  transform: translateX(390%);
+  width: 90px;
+  height: 80px;
+  margin-top: -78px;
+}
+
 }
