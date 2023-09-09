@@ -290,6 +290,11 @@ input{
   font-size: 20px;
   text-decoration: underline;
 }
+.sem-2{
+  margin-top: 40px;
+  font-size: 20px;
+  text-decoration: underline;
+}
 /*Home page*/
 
 @media (max-width: 650px) {
