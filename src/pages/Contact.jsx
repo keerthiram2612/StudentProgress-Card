@@ -20,7 +20,7 @@ class Contact extends React.Component {
         </nav>
 
         <div>
-          <iframe
+          <iframe className='iframe'
             style={{ border: 0 }}
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1651.8124054921175!2d80.04538158589362!3d13.135441866356619!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a5288f1777c766f%3A0x2374bd5175d7ec60!2sJaya+Engineering+College!5e1!3m2!1sen!2sin!4v1394868318545"
             width="100%"

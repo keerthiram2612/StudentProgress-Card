@@ -13,7 +13,7 @@ export default function Header() {
         <li  onClick={()=>navigate('/')}>Home</li>
         <li onClick={()=>navigate("/student")}>Studentdetails</li>
         <li onClick={()=>navigate("/contact")}>Contact</li>
-        <li>Login</li>
+        <li onClick={()=>navigate("/login")}>Login</li>
         </ul>
         </div>
     </div>

@@ -9,6 +9,7 @@ import Student2 from"./pages/Student2"
 import Student3 from "./pages/Student3"
 import Contact from './pages/Contact'
 import ContactUs from './pages/ContactUs'
+import Login from './pages/Login'
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
       <Route path="/student2"element={<Student2/>}/>
       <Route path="/student3"element={<Student3/>}/>
       <Route path="/contact"element={<Contact/>}/>
+      <Route path="/login"element={<Login/>}/>
       <Route path = "/contactus"element={<ContactUs/>}/>
     </Routes>
     <Footer/>
