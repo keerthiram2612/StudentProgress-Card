@@ -63,6 +63,9 @@ body{
    cursor: pointer;
   
 }
+.contact-h1{
+  font-size: 35px;
+}
 .footer p {
   display: flex;
   justify-content: center;
@@ -359,6 +362,50 @@ button{
   margin-top: 70px;
 
 }
+
+/*Contactus page*/
+.contactus-h1{
+  font-size: 30px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.contactus-h2{
+  font-size: 25px;
+}
+.container-contactus{
+  margin-top: 20px;
+  width: 500px;
+  height: 400px;
+  background-color: lightblue;
+  margin-left: 390px;
+}
+.aboutus{
+  font-size: 25px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+
+}
+.aboutus:hover{
+  width: 130px;
+  height: 100px;
+  padding: 5px 20px;
+  background-color:blue;
+  
+}
+.contactus{
+  font-size: 25px;
+  margin-top: -10px;
+  margin-bottom: 40px;
+
+}
+.contactus:hover{
+  width: 130px;
+  height: 100px;
+  padding: 5px 20px;
+  background-color:blue;
+  margin-bottom: 50px;
+  
+}
+
 /*Home page*/
 
 @media (max-width: 650px) {
@@ -520,7 +567,15 @@ th{
    padding: 20px 30px;
 }
 
-
+.container-contactus{
+  transform: translateX(-78%);
+}
+.contactus-h2{
+  font-size: 19px;
+}
+.container-contactus p{
+  font-size: 15px;
+}
 }
 /* Default styles for screens wider than 650px */
 /* You can add your default styles here */

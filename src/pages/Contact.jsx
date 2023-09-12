@@ -8,16 +8,14 @@ class Contact extends React.Component {
       <div>
         {/* Header section */}
         <header>
-          <h1>JAYA ENGINEERING COLLEGE</h1>
-          <p>Welcome to our college!</p>
+          <h1 className='contact-h1'>JAYA ENGINEERING COLLEGE</h1>
         </header>
 
         {/* Navigation menu */}
         <nav>
-          <h2>Quick Navigation</h2>
           <ul>
-            <Link to="/"><a href="#about">About Us</a></Link>
-            <li><a href="#contact">Contact Us</a></li>
+            <Link to="/"><a className="aboutus"href="#about">About Us</a></Link><br/>
+            <Link to="/contactus"><a className='contactus' href="#contact">Contact Us</a></Link>
           </ul>
         </nav>
 
