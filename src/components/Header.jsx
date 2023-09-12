@@ -12,7 +12,7 @@ export default function Header() {
         <ul className="home-section">
         <li  onClick={()=>navigate('/')}>Home</li>
         <li onClick={()=>navigate("/student")}>Studentdetails</li>
-        <li>Contact</li>
+        <li onClick={()=>navigate("/contact")}>Contact</li>
         <li>Login</li>
         </ul>
         </div>
