@@ -41,11 +41,10 @@ export default function Student() {
       </p>
      
        </div>
-       
        <div className='student-history'>
         <form>
         <h2 className='hist-stud'>Register No:<input type = "text"/></h2>
-       <h2 className='stud-hist'>Course:<select>
+        <h2 className='stud-hist'>Course:<select>
         <option value="B.E">B.E</option>
         <option value="B.Tech">B.Tech</option>
         <option value="MBA">MBA</option>
@@ -53,7 +52,7 @@ export default function Student() {
         </select></h2>
         <h2 className='hist-stud'> Name:<input type = "text"/></h2>
         <h2 className='hist-stud'>Date of Birth:<input type = "text"/></h2>
-        <h2 className='hist-stud'>Father's/Gaurdian's Name:<input type = "text"/></h2>
+        <h2 className='hist-stud'>Father's/Gaurdian'sName:<input type = "text"/></h2>
         <h2 className='hist-stud'>Occupation<input type = "text"/></h2>
         <h2 className='hist-stud'>Phone No:<input type = "text"/></h2>
         <h2 className='hist-stud'>E-mail:<input type = "text"/></h2>
