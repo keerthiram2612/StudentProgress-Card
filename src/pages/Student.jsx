@@ -64,7 +64,7 @@ export default function Student() {
         </select></h2>
         <h2 className='hist-stud1'>Permanent Address:</h2><textarea type = "text"/>
         <h2 className='hist-stud1'>Present Address:</h2><textarea type = "text"/>
-        <h2 className='hist-stud'>Family Background: Father's Name:<input type = "text"/></h2>
+        <h2 className='hist-stud'> Father's Name:<input type = "text"/></h2>
         <h2 className='hist-stud'>Mother's Name:<input type = "text"/></h2>
         <h2 className='hist-stud'>No. of Brother/Sister's:<input type = "text"/></h2>
         <h2 className='stud-hist'>Nature of Admission:<select>

@@ -491,7 +491,7 @@ button{
     margin-left: 90px;
   }
   .hist-stud1{
-    transform: translateX(12%);
+    transform: translateX(14%);
   }
   
   i{
@@ -507,7 +507,7 @@ button{
   .home-image {
     font-size: 20px;
     margin-top: 30px;
-    margin-left: -80px;
+    margin-left: -110px;
   }
   
   .background-image {
@@ -547,7 +547,7 @@ button{
    width: 100px;
    height: 70px;
    margin-top: 20px;
-   margin-left: -40px;
+   margin-left: -15px;
  
 
 }
@@ -651,6 +651,11 @@ th{
 i{
   transform: translateX(50%);
 }
+.hist-stud h1{
+  font-size: 10px;
+}
+
+
 }
 
 /* Default styles for screens wider than 650px */
