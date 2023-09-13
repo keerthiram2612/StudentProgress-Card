@@ -292,10 +292,6 @@ i{
   margin-top: -50px;
   border-radius: 300px;
 }
-.logo-stud{
- 
-
-}
 th{
   padding: 0 20px;
   margin-bottom: 40px;
@@ -365,6 +361,7 @@ button{
 
 }
 
+
 /*Contactus page*/
 .contactus-h1{
   font-size: 30px;
@@ -433,6 +430,35 @@ i{
 }
 .login-page h1{
   margin-top: 40px;
+}
+.login-h1{
+  font-size: 25px;
+  cursor: pointer;
+}
+.login-page input{
+  width: auto;
+  border: 2px solid blue;
+  
+}
+.login-page{
+  border: 2px solid;
+  width: 500px;
+  height: 350px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 400px;
+}
+i{
+  color: blue;
+  cursor: pointer;
+}
+button{
+  width: 100px;
+  height: 40px;
+  background-color: blue;
+  border-radius: 5px;
+  cursor: pointer;
+
 }
 /*Home page*/
 
@@ -596,7 +622,7 @@ th{
 }
 
 .container-contactus{
-  transform: translateX(-78%);
+  transform: translateX(-80%);
 }
 .contactus-h2{
   font-size: 19px;
@@ -604,7 +630,29 @@ th{
 .container-contactus p{
   font-size: 15px;
 }
+.contact-img{
+ margin-left: 0px;
+ width: 80px;
+ height: 70px;
+ margin-top: -30px;
+ margin-left: 50px;
+
 }
+.contact-div{
+  font-size: 25px;
+  margin-left: 100px;
+  transform: translateY(30%);
+}
+.login-page{
+  width: 300px;
+  height: 350px;
+  transform: translateX(-100%);
+}
+i{
+  transform: translateX(50%);
+}
+}
+
 /* Default styles for screens wider than 650px */
 /* You can add your default styles here */
 
