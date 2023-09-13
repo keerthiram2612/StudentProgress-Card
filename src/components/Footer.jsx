@@ -8,7 +8,8 @@ export default function Footer() {
     <div className='footer'>
       <p>@JAYA ENGINEERING COLLEGE</p>
       <p onClick={()=>navigate("/")}>Home</p>
-      <p onClick={()=>navigate("/student")}>Contact</p>
+      <p onClick={()=>navigate("/student")}>Studentdetails</p>
+      <p onClick={()=>navigate("/contact")}>Contact</p>
     </div>
   )
 }

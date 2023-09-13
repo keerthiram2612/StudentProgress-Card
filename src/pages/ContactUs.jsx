@@ -2,6 +2,9 @@ import React from 'react'
 
 function ContactUs() {
   return (
+    <div>
+        <h1 className='contact-div'>Jaya Engineering College</h1>
+        <img className='contact-img' src="https://pbs.twimg.com/profile_images/1471912001970446337/b8fXDap9_400x400.jpg" alt="" />
     <div className='container-contactus'>
         <h1 className='contactus-h1'>Contact Us</h1>
         <h2  className='contactus-h2'>College Address</h2>
@@ -21,8 +24,16 @@ function ContactUs() {
       Tamil Nadu, India.
       Telephone : +91-44-2815 5531
        Fax       : +91-44-5212 3995</p>
+       <h2 className='contactus-h2'>Jaya Group of instutions</h2>
+       <p>CTH Road, Thiruninravur,
+       Chennai – 602 024.Tamilnadu, India.
+       Phone +91 44 26390982
+      +91 44 26390682
+      +91 44 26300707
+      Email ID vc@jec.ac.in
+      Website www.jayagc.org</p>
        </div>
-    
+       </div>
   )
 }
 
