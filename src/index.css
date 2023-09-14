@@ -547,7 +547,7 @@ button{
    width: 100px;
    height: 70px;
    margin-top: 20px;
-   margin-left: -15px;
+   margin-left: -35px;
  
 
 }
@@ -572,7 +572,7 @@ button{
 }
 .content-home {
   font-size: 12px;
-   transform: translateX(10%);
+   transform: translateX(-10%);
    margin-top: 40px;
 
 }
@@ -628,7 +628,7 @@ th{
   font-size: 19px;
 }
 .container-contactus p{
-  font-size: 15px;
+  font-size: 10px;
 }
 .contact-img{
  margin-left: 0px;
@@ -655,7 +655,10 @@ i{
   font-size: 10px;
 }
 
-
+.footer{
+  margin-right: 20px;
+  margin-left: 20px;
+}
 }
 
 /* Default styles for screens wider than 650px */
