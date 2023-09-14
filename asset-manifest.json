@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/StudentProgress-Card/static/css/main.079ebebd.css",
+    "main.js": "/StudentProgress-Card/static/js/main.697d20a9.js",
+    "static/js/787.77fb87b2.chunk.js": "/StudentProgress-Card/static/js/787.77fb87b2.chunk.js",
+    "index.html": "/StudentProgress-Card/index.html",
+    "main.079ebebd.css.map": "/StudentProgress-Card/static/css/main.079ebebd.css.map",
+    "main.697d20a9.js.map": "/StudentProgress-Card/static/js/main.697d20a9.js.map",
+    "787.77fb87b2.chunk.js.map": "/StudentProgress-Card/static/js/787.77fb87b2.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.079ebebd.css",
+    "static/js/main.697d20a9.js"
+  ]
+}
