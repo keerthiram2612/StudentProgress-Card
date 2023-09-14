@@ -646,7 +646,7 @@ th{
 .login-page{
   width: 300px;
   height: 350px;
-  transform: translateX(-100%);
+  transform: translateX(-120%);
 }
 i{
   transform: translateX(50%);
