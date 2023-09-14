@@ -622,10 +622,12 @@ th{
 }
 
 .container-contactus{
-  transform: translateX(-80%);
+  transform: translateX(-100%);
+  align-items: center;
 }
 .contactus-h2{
   font-size: 19px;
+  margin-left: 35px;
 }
 .container-contactus p{
   font-size: 10px;
